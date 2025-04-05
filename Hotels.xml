@@ -57,7 +57,7 @@
       <Zip>85284</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.8">
     <Name>Residence Inn</Name>
     <Phone>480-777-8888</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
@@ -79,7 +79,7 @@
       <Zip>85286</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.5">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-222-9999</Phone>
     <Address NearestAirport="Phoenix-Mesa Gateway">
@@ -101,7 +101,7 @@
       <Zip>85288</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.0">
     <Name>Motel 6</Name>
     <Phone>480-555-4444</Phone>
     <Address>
