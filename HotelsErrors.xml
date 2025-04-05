@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!-- Error 1: root should be "Hotels" -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <!-- Error 3: missing <Phone> -->
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel> <!-- Error 2: missing required attribute "Rating" -->
+    <Name>Courtyard Marriott</Name>
+    <Phone>480-222-3333</Phone>
+    <Address>
+      <Number>22</Number>
+      <Street>University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <!-- Error 4: unclosed Zip tag -->
+      <Zip>85281
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>Hilton Garden Inn</Name>
+    <Name>Duplicate Name</Name> <!-- Error 5: two <Name> tags -->
+    <Phone>480-123-4567</Phone>
+    <Address>
+      <Number>45</Number>
+      <Street>Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+</Hotel>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>Hilton Garden Inn</Name>
+    <Phone>480-123-4567</Phone>
+    <Address NearestAirport="Phoenix-Mesa Gateway">
+      <Number>45</Number>
+      <Street>Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Courtyard Marriott</Name>
+    <Phone>480-222-3333</Phone>
+    <Address>
+      <Number>22</Number>
+      <Street>University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.9">
+    <Name>Holiday Inn Express</Name>
+    <Phone>480-111-2222</Phone>
+    <Phone>800-222-3333</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>19</Number>
+      <Street>Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85283</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.7">
+    <Name>Hyatt Place</Name>
+    <Phone>480-444-5555</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>Broadway Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85284</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Residence Inn</Name>
+    <Phone>480-777-8888</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>33</Number>
+      <Street>McClintock Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85285</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Aloft Hotel</Name>
+    <Phone>480-999-0000</Phone>
+    <Address>
+      <Number>58</Number>
+      <Street>Southern Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85286</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Tempe Mission Palms</Name>
+    <Phone>480-222-9999</Phone>
+    <Address NearestAirport="Phoenix-Mesa Gateway">
+      <Number>1</Number>
+      <Street>Ash Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85287</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>Best Western Inn</Name>
+    <Phone>480-666-7777</Phone>
+    <Address>
+      <Number>77</Number>
+      <Street>Priest Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85288</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Motel 6</Name>
+    <Phone>480-555-4444</Phone>
+    <Address>
+      <Number>99</Number>
+      <Street>Scottsdale Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85289</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
