@@ -16,22 +16,22 @@
   <!-- Type for Hotels -->
   <xsd:complexType name="Hotels">
     <xsd:sequence>
-      <xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
+      <xsd:element name="Hotel" type="Hotel" minOccurs="1" maxOccurs="unbounded"/>
     </xsd:sequence>
   </xsd:complexType>
 
   <!-- Type for a Hotel -->
-  <xsd:complexType name="HotelType">
+  <xsd:complexType name="Hotel">
     <xsd:sequence>
       <xsd:element name="Name" type="xsd:string"/>
       <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
-      <xsd:element name="Address" type="AddressType"/>
+      <xsd:element name="Address" type="Address"/>
       <xsd:element name="Rating" type="xsd:string" minOccurs="0"/>
     </xsd:sequence>
   </xsd:complexType>
 
   <!-- AddressType includes required attribute NearstAirport -->
-  <xsd:complexType name="AddressType">
+  <xsd:complexType name="Address">
     <xsd:sequence>
       <xsd:element name="Number" type="xsd:int"/>
       <xsd:element name="Street" type="xsd:string"/>
