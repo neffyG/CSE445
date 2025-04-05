@@ -11,10 +11,10 @@
   </xsd:annotation>
 
   <!-- Root element -->
-  <xsd:element name="Hotels" type="HotelsType"/>
+  <xsd:element name="Hotels" type="Hotels"/>
 
   <!-- Type for Hotels -->
-  <xsd:complexType name="HotelsType">
+  <xsd:complexType name="Hotels">
     <xsd:sequence>
       <xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
     </xsd:sequence>
