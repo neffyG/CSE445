@@ -112,4 +112,15 @@
       <Zip>85289</Zip>
     </Address>
   </Hotel>
+  <Hotel Rating="4.9">
+    <Name>HOHOHO Inn</Name>
+    <Phone>480-675-7777</Phone>
+    <Address>
+      <Number>80</Number>
+      <Street>montecito aver</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85017</Zip>
+    </Address>
+  </Hotel>
 </Hotels>
