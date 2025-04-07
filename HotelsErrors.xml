@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel> <!-- ❌ Error 1: Wrong root element name -->
+
+<!-- Error 1: Wrong name -->
+<Hotel> 
   <Hotel>
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -9,14 +11,15 @@
       <Street>E.7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <!-- ❌ Error 2: Missing required Zip -->
+      <!-- Error 2: Missing zipcode -->
     </Address>
     <Rating>4.2</Rating>
   </Hotel>
 
+  
   <Hotel>
     <Name>Hyatt Regency</Name>
-    <!-- ❌ Error 3: Missing <Phone> -->
+    <!-- Error 3: Missing phone# -->
     <Address NearstAirport="Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
@@ -30,20 +33,21 @@
     <Name>Hilton Garden Inn</Name>
     <Phone>480-968-3451</Phone>
     <Phone>877-214-6723</Phone>
-    <!-- ❌ Error 4: No closing tag for <Address> -->
+    <!-- Error 4: No tag for adress -->
     <Address NearstAirport="Mesa Gateway">
       <Number>86</Number>
       <Street>S Alma School Rd</Street>
       <City>Chandler</City>
       <State>AZ</State>
       <Zip>85225</Zip>
-    <!-- Missing </Address> -->
+    <!-- Missing adress -->
     <Rating>4.5</Rating>
   </Hotel>
 
   <Hotel>
     <Name>Marriott</Name>
-    <Name>Duplicate Name</Name> <!-- ❌ Error 5: Two <Name> elements -->
+    <!-- Error 5: two elements -->
+    <Name>Duplicate Name</Name> 
     <Phone>480-820-8621</Phone>
     <Address NearstAirport="Sky Harbor">
       <Number>200</Number>
