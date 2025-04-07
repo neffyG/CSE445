@@ -80,7 +80,7 @@
     <Rating>4.4</Rating>
   </Hotel>
   <Hotel>
-    <Name>Best Western InnSuites Phoenix Hotel & Suites</Name>
+    <Name>Best Western InnSuites Phoenix Hotel and Suites</Name>
     <Phone>602-997-6285</Phone>
     <Address NearstAirport="Phoenix Sky Harbor International Airport">
       <Number>1615</Number>
@@ -104,7 +104,7 @@
     <Rating>3.8</Rating>
   </Hotel>
   <Hotel>
-    <Name>Drury Inn & Suites Phoenix Happy Valley</Name>
+    <Name>Drury Inn and Suites Phoenix Happy Valley</Name>
     <Phone>623-879-8800</Phone>
     <Address NearstAirport="Phoenix Sky Harbor International Airport">
       <Number>2335</Number>
