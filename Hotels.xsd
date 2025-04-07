@@ -4,23 +4,37 @@
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
 
+  <!-- 
+    This schema defines the structure for a directory of hotels. 
+    It ensures every Hotels.xml file follows the expected format.
+  -->
   <xsd:annotation>
     <xsd:documentation xml:lang="en">
-      Hotels Directory Schema for CSE445 Assignment 4
+      Hotels Directory Schema
     </xsd:documentation>
   </xsd:annotation>
 
-  <!-- Root element -->
+  <!-- 
+    The root element is <Hotels>, which contains one or more <Hotel> entries.
+  -->
   <xsd:element name="Hotels" type="Hotels"/>
 
-  <!-- Type for Hotels -->
+  <!-- 
+    The <Hotels> type is just a list (sequence) of <Hotel> elements.
+  -->
   <xsd:complexType name="Hotels">
     <xsd:sequence>
       <xsd:element name="Hotel" type="Hotel" minOccurs="1" maxOccurs="unbounded"/>
     </xsd:sequence>
   </xsd:complexType>
 
-  <!-- Type for a Hotel -->
+  <!-- 
+    Each <Hotel> must include:
+      - a name (string)
+      - at least one phone number
+      - an address (see Address type below)
+      - and optionally, a rating
+  -->
   <xsd:complexType name="Hotel">
     <xsd:sequence>
       <xsd:element name="Name" type="xsd:string"/>
@@ -30,7 +44,10 @@
     </xsd:sequence>
   </xsd:complexType>
 
-  <!-- AddressType includes required attribute NearstAirport -->
+  <!-- 
+    The <Address> contains basic location info like street, city, and zip.
+    It also has one required attribute: NearstAirport.
+  -->
   <xsd:complexType name="Address">
     <xsd:sequence>
       <xsd:element name="Number" type="xsd:int"/>
