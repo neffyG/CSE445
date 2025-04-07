@@ -4,6 +4,9 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd">
 
+  //-----------------------------------
+  //---------Required Hotel------------
+  //-----------------------------------
   <Hotel>
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -18,6 +21,9 @@
     <Rating>4.2</Rating>
   </Hotel>
 
+  //-----------------------------------
+  //---------Hotel 1-------------------
+  //-----------------------------------
  <Hotels>
   <Hotel>
     <Name>Fairfield Inn and Suites by Marriott Phoenix Midtown</Name>
@@ -31,6 +37,9 @@
     </Address>
     <Rating>4.3</Rating>
   </Hotel>
+  //-----------------------------------
+  //---------Hotel 2-------------------
+  //-----------------------------------
   <Hotel>
     <Name>Hampton Inn Phoenix-Midtown-Downtown Area</Name>
     <Phone>602-200-0990</Phone>
@@ -43,6 +52,9 @@
     </Address>
     <Rating>4.2</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 3-------------------
+  //-----------------------------------
   <Hotel>
     <Name>The Clarendon Hotel and Spa</Name>
     <Phone>602-252-7363</Phone>
@@ -55,6 +67,9 @@
     </Address>
     <Rating>4.0</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 4-------------------
+  //-----------------------------------
   <Hotel>
     <Name>Rise Uptown Hotel</Name>
     <Phone>602-675-3500</Phone>
@@ -67,6 +82,9 @@
     </Address>
     <Rating>4.5</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 5-------------------
+  //-----------------------------------
   <Hotel>
     <Name>FOUND:RE Phoenix Hotel</Name>
     <Phone>602-875-8000</Phone>
@@ -79,6 +97,9 @@
     </Address>
     <Rating>4.4</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 6-------------------
+  //-----------------------------------
   <Hotel>
     <Name>Best Western InnSuites Phoenix Hotel and Suites</Name>
     <Phone>602-997-6285</Phone>
@@ -91,6 +112,9 @@
     </Address>
     <Rating>4.1</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 7-------------------
+  //-----------------------------------
   <Hotel>
     <Name>GreenTree Inn Phoenix West</Name>
     <Phone>602-484-9009</Phone>
@@ -103,6 +127,9 @@
     </Address>
     <Rating>3.8</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 8-------------------
+  //-----------------------------------
   <Hotel>
     <Name>Drury Inn and Suites Phoenix Happy Valley</Name>
     <Phone>623-879-8800</Phone>
@@ -115,6 +142,9 @@
     </Address>
     <Rating>4.6</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 9-------------------
+  //-----------------------------------
   <Hotel>
     <Name>Homewood Suites by Hilton Phoenix North-Happy Valley</Name>
     <Phone>623-580-1800</Phone>
@@ -127,6 +157,9 @@
     </Address>
     <Rating>4.5</Rating>
   </Hotel>
+   //-----------------------------------
+  //---------Hotel 10-------------------
+  //-----------------------------------
   <Hotel>
     <Name>Hilton Garden Inn Phoenix Downtown</Name>
     <Phone>602-343-0006</Phone>
